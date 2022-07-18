@@ -1,0 +1,29 @@
+{
+  "name": "usual-things",
+  "version": "0.0.1",
+  "description": "Collection of usual `day by day` code stuff",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./build.js"
+  },
+  "repository": "git@github.com:zlodeev/usual-things.git",
+  "author": "Alex ZloDeeV <zlodeev.ik@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "peerDependencies": {},
+  "devDependencies": {
+    "@tinkoff/prettier-config": "^1.32.1",
+    "@typescript-eslint/parser": "^5.30.7",
+    "esbuild": "^0.14.49",
+    "eslint": "^8.20.0",
+    "eslint-plugin-rxjs": "^5.0.2",
+    "prettier": "^2.7.1",
+    "rxjs": "^7.5.6",
+    "typescript": "^4.7.4"
+  },
+  "engines": {
+    "node": "> 14",
+    "npm": "Please, use yarn for this project",
+    "yarn": ">=1.22.0"
+  }
+}
