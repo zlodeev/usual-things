@@ -1,1 +1,1 @@
-import { Observable } from 'rxjs';
+export * from './rxjs';

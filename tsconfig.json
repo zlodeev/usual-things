@@ -1,12 +1,19 @@
 {
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "**/*.test.ts"],
   "compilerOptions": {
     "target": "es2016",
     "module": "commonjs",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+    "strictNullChecks": true,
     "skipLibCheck": true,
-    "resolveJsonModule": true
-  },
-  "exclude": ["node_modules", "dist", "**/*.test.ts"]
+    "resolveJsonModule": true,
+    "paths": {
+      "@types": ["./src/typescript/index"],
+      "@types/*": ["./src/typescript/*"],
+      "@observables/*": ["./src/rxjs/*"]
+    }
+  }
 }
